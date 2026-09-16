@@ -1,19 +1,11 @@
-salary=int(input("enter salary : "))
+price=int(input("enter price"))
 
-if salary<=10000:
-    hra=salary*0.20
-    da=salary*0.80
-    Gross=salary+hra+da
-    print(f"gross {Gross}")
-elif salary<=20000:
-    hra=salary*0.25
-    da=salary*0.90
-    Gross=salary+hra+da
-    print(f"gross {Gross}") 
+if price<50000:
+    road_tax=price*0.05
+    print(f"road tax : {road_tax}")
+elif price>50000 and price<=100000:
+    road_tax=price*0.10
+    print(f"road tax : {road_tax}")
 else:
-    hra=salary*0.30
-    da=salary*0.95
-    Gross=salary+hra+da
-    print(f"gross {Gross}") 
-
-     
+    road_tax=price*0.10
+    print(f"road tax : {road_tax}")
