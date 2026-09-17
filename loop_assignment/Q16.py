@@ -1,11 +1,8 @@
-# …... -6	-3	0	3	6	9	……. n terms [where n is even]	
+# …... -6	-3	0	3	6	9	……. n terms [where n is divisible by 3]	
 
 n=int(input("enter number : "))
 
-i=1
-term=-6
+if n%3==0:
+    for i in range(-n,n+1,+3):
+        print(i)
 
-while(i<=n):
-    print(term, end=" ")
-    term=term+3
-    i=i+1
