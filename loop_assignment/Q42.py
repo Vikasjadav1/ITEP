@@ -1,3 +1,5 @@
+#42) WAP to find out HCF of a number
+
 a=int(input("enter  a : "))
 b=int(input("enter  b : "))
 

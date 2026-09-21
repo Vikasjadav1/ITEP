@@ -1,11 +1,18 @@
 n=int(input("enter  a number : "))
 temp=n
 ans=0
+length=0
+
+while n!=0:
+    length+=1
+    n = n//10
+
+n = temp 
 while n!=0:
     lastnumber=n%10
-    cube=lastnumber**3
-    ans+=cube
+    ans=ans+lastnumber**length
     n=n//10
+
 
 if temp==ans:
     print("its armstrong")

@@ -1,6 +1,6 @@
 marks=int(input("enter marks out of 100 : "))
 
-if marks>80:
+if marks<=100 and  marks>80:
     print(f"grade A")
 elif marks>60 and marks<=80:
     print(f"grade B") 

@@ -1,3 +1,5 @@
+#41) WAP to find out LCM of a number
+
 a=int(input("enter  a : "))
 b=int(input("enter  b : "))
 

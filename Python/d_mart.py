@@ -1,4 +1,3 @@
-
 cust_name=input("Enter Customer Name : ")
 cust_gender=input("enter Customer Gender : ").lower()
 
