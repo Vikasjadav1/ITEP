@@ -15,7 +15,7 @@ Input : arr[] = {1, 1, 1}
 Output : 0
 '''
 
-arr = [-1, 2, -1, 3, 2]
+arr = [-1, 2, -1, 3, 2,8]
 
 
 for i in range(len(arr)):
@@ -26,3 +26,14 @@ for i in range(len(arr)):
     if found==False:
         print(f"first non repeating element {arr[i]} at index {i}")
         break
+'''
+s=set()
+for i in range(len(arr)):
+    if arr[i] in s:
+        s.remove(arr[i])
+    else:
+        s.add(arr[i])
+
+print(s)
+'''
+        

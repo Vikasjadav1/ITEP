@@ -2,7 +2,7 @@
 arr=[4,1,5,2,3]
 size=len(arr)
 
-for i in range(size):
+for i in range(size-1):
     smallest=i
     for j in range(i+1,size):
         if arr[j]<arr[smallest]:

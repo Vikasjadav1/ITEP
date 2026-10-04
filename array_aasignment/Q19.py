@@ -18,7 +18,7 @@ Explanation: Subarray with maximum product
 is [2, 3, 4, 5] which gives product as 120.
 '''
 arr = [6, -3, -10, 0, 2]
-maxproduct=1
+maxproduct=arr[0]
 for i in range(len(arr)):
     product=1
     for j in range(i,len(arr)):
