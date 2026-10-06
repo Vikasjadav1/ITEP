@@ -1,0 +1,9 @@
+n=7
+
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if j==1 or (i==1 and j<(n//2)+1) or (i==(n//2)+1 and  j<(n//2)+1) or j==(n//2)+1 and i<=(n//2)+1 or (i==5 and j==2) or (i==6 and j==3) or (i==7 and j==4):
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
