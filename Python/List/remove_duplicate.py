@@ -1,4 +1,5 @@
-arr=[0,1,2,3,3,4]
+'''
+arr=[0,0,1,1,1,2,2,3]
 pos=1
 count=1
 cnt=1
@@ -13,3 +14,10 @@ for i in range(1,len(arr)-1):
         count+=1
 
 print(arr[:count])
+'''
+
+arr=[0,0,1,1,1,2,2,3]
+arr=list(set(arr))
+
+print(arr)
+
