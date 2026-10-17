@@ -1,7 +1,12 @@
-import tokenize
-from io import BytesIO
+s1={1,2,3,}
+s2={1,2,3,4}
+# print(s1.union(s2))
+# print(s1.intersection(s2))
+# print(s1.difference(s2))
+# print(s1.symmetric_difference(s2))
+# print(s1.difference(s2))
 
-code = b"x = 10 + 20"
+s1.symmetric_difference_update(s2)
+print(s1)
 
-for token in tokenize.tokenize(BytesIO(code).readline):
-    print(token)
+
