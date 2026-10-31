@@ -4,12 +4,12 @@ Use setter methods to assign values. Add a method to display employee details.
 '''
 
 class Employee:
-    '''
-    def __init__(self,id,name,salary):
+    
+    def __init__(self,id=None,name=None,salary=None):
         self.__id=id
         self.__name=name
         self.__salary=salary
-    '''
+
     def set_id(self,id):
         self.__id=id
 
