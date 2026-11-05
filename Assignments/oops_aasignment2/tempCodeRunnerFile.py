@@ -1,0 +1,1 @@
+player1.add_player_details()
