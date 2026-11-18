@@ -1,3 +1,17 @@
+'''
+3. Employee Management
+
+Base class Employee.
+
+Derived:
+
+Developer
+Tester
+HR
+
+Calculate salaries differently.
+'''
+
 from abc import ABC,abstractmethod
 
 class Employee(ABC):

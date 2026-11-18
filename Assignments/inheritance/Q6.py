@@ -1,3 +1,20 @@
+'''
+6. Hospital Management
+
+Parent:
+
+HospitalStaff
+
+Child:
+
+Doctor
+Nurse
+Receptionist
+
+Implement duties().
+'''
+
+
 from abc import ABC,abstractmethod
 class HospitalStaff(ABC):
     @abstractmethod

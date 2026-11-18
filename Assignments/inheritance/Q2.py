@@ -1,3 +1,21 @@
+'''
+2. Vehicle System
+
+Create parent class Vehicle.
+
+Child classes:
+
+Car
+Bike
+Bus
+
+Add methods:
+
+start()
+stop()
+
+'''
+
 from abc import ABC,abstractmethod
 class Vehicle(ABC):
     @abstractmethod

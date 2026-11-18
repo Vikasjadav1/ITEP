@@ -1,3 +1,15 @@
+'''
+1. Animal Sound System
+
+Create parent class Animal and child classes:
+
+Dog
+Cat
+Cow
+
+Override sound() method.
+'''
+
 from abc import ABC,abstractmethod
 class Animal(ABC):
     @abstractmethod

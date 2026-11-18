@@ -1,3 +1,19 @@
+'''
+5. Banking System
+
+Parent:
+
+BankAccount
+
+Child:
+
+SavingsAccount
+CurrentAccount
+
+Implement withdrawal rules.
+'''
+
+
 from abc import ABC,abstractmethod
 class BankAccount(ABC):
     @abstractmethod

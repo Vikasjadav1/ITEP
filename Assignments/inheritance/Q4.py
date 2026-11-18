@@ -1,3 +1,16 @@
+'''
+4. Student Management
+
+Base class Person.
+
+Derived:
+
+Student
+Teacher
+
+Add role-specific methods.
+
+'''
 
 class Person:
     pass
