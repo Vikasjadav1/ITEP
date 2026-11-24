@@ -1,0 +1,3 @@
+viaks
+Python is robust
+Python has strong memory management mechanism
